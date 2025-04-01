@@ -14,3 +14,6 @@ Este proyecto es una aplicación web para la gestión de una cadena hotelera. Pe
 2. **Calcular tarifa:**
    - Calcula el costo total de una reserva según la sede, tipo de habitación, temporada y número de habitaciones.
 
+## **Consideraciones**
+- Se adjunta docs con una verificación de funcionamiento
+- Se adjunta el archivo Json con los elementos de la BD
