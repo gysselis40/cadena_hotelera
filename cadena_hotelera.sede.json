@@ -1,0 +1,155 @@
+[{
+  "_id": {
+    "$oid": "67ec03ff9282a76fc8bf9726"
+  },
+  "nombre": "Barranquilla",
+  "habitaciones": [
+    {
+      "tipo": "estandar",
+      "cantidad": 30,
+      "cupo_max": 4,
+      "fecha_disponible": [
+        "2025-04-05",
+        "2025-04-06"
+      ]
+    },
+    {
+      "tipo": "premium",
+      "cantidad": 3,
+      "cupo_max": 4,
+      "fecha_disponible": [
+        "2025-04-05",
+        "2025-04-06"
+      ]
+    }
+  ],
+  "tarifas": {
+    "alta": {
+      "estandar": 100,
+      "premium": 200
+    },
+    "baja": {
+      "estandar": 90,
+      "premium": 180
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67ec0c2b7354815384b224b3"
+  },
+  "nombre": "Cali",
+  "habitaciones": [
+    {
+      "tipo": "premium",
+      "cantidad": 20,
+      "cupo_max": 6,
+      "fecha_disponible": [
+        "2025-04-01",
+        "2025-04-02"
+      ]
+    },
+    {
+      "tipo": "vip",
+      "cantidad": 2,
+      "cupo_max": 6,
+      "fecha_disponible": [
+        "2025-04-05",
+        "2025-04-06"
+      ]
+    }
+  ],
+  "tarifas": {
+    "alta": {
+      "premium": 100,
+      "vip": 200
+    },
+    "baja": {
+      "premium": 90,
+      "vip": 180
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67ec0c2b7354815384b224b4"
+  },
+  "nombre": "Cartagena",
+  "habitaciones": [
+    {
+      "tipo": "estandar",
+      "cantidad": 10,
+      "cupo_max": 8,
+      "fecha_disponible": [
+        "2025-04-08",
+        "2025-04-09"
+      ]
+    },
+    {
+      "tipo": "premium",
+      "cantidad": 1,
+      "cupo_max": 8,
+      "fecha_disponible": [
+        "2025-04-07",
+        "2025-04-08"
+      ]
+    }
+  ],
+  "tarifas": {
+    "alta": {
+      "estandar": 150,
+      "premium": 300
+    },
+    "baja": {
+      "estandar": 120,
+      "premium": 270
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "67ec0c2b7354815384b224b5"
+  },
+  "nombre": "Bogota",
+  "habitaciones": [
+    {
+      "tipo": "estandar",
+      "cantidad": 20,
+      "cupo_max": 6,
+      "fecha_disponible": [
+        "2025-04-02",
+        "2025-04-03"
+      ]
+    },
+    {
+      "tipo": "premium",
+      "cantidad": 20,
+      "cupo_max": 6,
+      "fecha_disponible": [
+        "2025-04-02",
+        "2025-04-03"
+      ]
+    },
+    {
+      "tipo": "vip",
+      "cantidad": 2,
+      "cupo_max": 6,
+      "fecha_disponible": [
+        "2025-04-03",
+        "2025-04-04"
+      ]
+    }
+  ],
+  "tarifas": {
+    "alta": {
+      "estandar": 250,
+      "premium": 150,
+      "vip": 300
+    },
+    "baja": {
+      "estandar": 90,
+      "premium": 180,
+      "vip": 200
+    }
+  }
+}]
